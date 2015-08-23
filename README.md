@@ -19,7 +19,9 @@ As baseline method we can use tree prediction
 But tree is not accurracy as we might think
 After reading a lot, the random forest with cross-validation option might be the best way to deal with this Human Activity Recognition classification project. It raised up the accuracy but tended to take time on computation
 The Data Cleaning above improve a lot the computational time.
+
 Ten fold cross validation have been choosed and entire data have been used
+
 For proof of concept, we can split data (example, taking 20% of training set) and do less fold (5 will be sufficient)
 
 More detail can be viewed on [the annotated R script](https://github.com/itoss/PracticalML/blob/master/HAR_project.R)) 
